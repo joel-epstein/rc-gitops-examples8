@@ -41,13 +41,13 @@ spec:
           "--redis-addr", "greymatter-datastore.greymatter.svc.cluster.local:6379",
           "--redis-db", "0"
         ]
-        resources:
-          limits:
-            cpu: "200m"
-            memory: "512Mi"
-          requests:
-            cpu: "100m"
-            memory: "256Mi"
+        # resources:
+          # limits:
+          #   cpu: "200m"
+          #   memory: "512Mi"
+          # requests:
+          #   cpu: "100m"
+          #   memory: "256Mi"
         volumeMounts:
         - name: greymatter-admin-sync
           readOnly: true
