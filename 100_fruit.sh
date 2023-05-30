@@ -6,7 +6,7 @@
 # they need to be grouped for the eval within EXPORTS.cue
 # kiwi peach orange fig grape
 
-for i in {1..25}
+for i in {1..50}
 do
 #echo "kiwi${i}"# 
 ~/greymatter183 init service --type=http --dir greymatter/examples --port=9090 --namespace=examples "whale${i}"
