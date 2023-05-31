@@ -6,10 +6,10 @@
 # they need to be grouped for the eval within EXPORTS.cue
 # kiwi peach orange fig grape
 
-for i in {1..100}
+for i in {1..50}
 do
 #echo "kiwi${i}"# 
-~/greymatter183 init service --type=http --dir greymatter/examples --port=9090 --namespace=examples "whale${i}"
+~/greymatter init service --type=http --dir greymatter/examples --port=9090 --namespace=examples "whale${i}"
 # ~/greymatter init service --insecure --type=http --dir greymatter/foobar_1 --port=9090 --namespace=foobar-1 "kiwi${i}"
 #~/greymatter init service --insecure --type=http --dir greymatter/foobar_2 --port=9090 --namespace=foobar-2 "peach${i}"
 #~/greymatter init service --insecure --type=http --dir greymatter/foobar_3 --port=9090 --namespace=foobar-3 "orange${i}"
