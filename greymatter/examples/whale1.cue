@@ -16,7 +16,7 @@ Whale1: gsl.#Service & {
 	name:          "whale1"
 	display_name:  "Examples Whale1"
 	version:       "v1.0.0"
-	description:   "EDIT ME"
+	description:   "EDIT ME HEY A CHANGE HERE"
 	api_endpoint:              "https://\(context.globals.edge_host)/services/\(context.globals.namespace)/\(name)/"
 	api_spec_endpoint:         "https://\(context.globals.edge_host)/services/\(context.globals.namespace)/\(name)/"
 	
